@@ -7,7 +7,6 @@
     <li>
       <a href="#Automating Tableau Server deployments">Automating Tableau Server deployments</a>
       <ul>
-        <li><a href="#Why automating Tableau Server deployments">Why automating Tableau Server deployments</a></li>
         <li><a href="#What's outthere alrady to do this? (as Oct 2021)">What's outthere alrady to do this? (as Oct 2021)</a></li>
       </ul>
     </li>
@@ -21,9 +20,10 @@
 
 
 ## Automating Tableau Server deployments
-bla bla
-### Why automating Tableau Server deployments
-bla bla
+Tableau Server is one of the most used visualitations and dara analisys. It runs on traditional hosts with either Linux or Windows. As of Oct 2021 Tableau has not announced any plans to redisign  the soltion in an more cloud-friendly fashion or to be run on top of a thecnology more aligned with the industry trends like kubernetes. 
+
+Automating everything is religion for Platform Engineers these days,  although (the implementation of) Tableau server seems to be complicated to automate, this is another effort to beat it..
+
 ### What's outthere alrady to do this? (as Oct 2021)
 There are some options out there for automating Tableau server deployments that may fit your needs better than this.
 
