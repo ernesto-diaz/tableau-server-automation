@@ -34,6 +34,12 @@ There are some options out there for automating Tableau server deployments that 
 
 ## Tech stack for this solution
 
+Tool/Technology | What's for? | Why
+  --- | --- | ---
+  AWS | Cloud provided where Tableau will run | No need to explain why AWS
+  Terraform | Infraestucture as Code | Terraform is extensively used in the industry, it's for many companies their first option when it comes to IaC, even over CloudFormation
+  Ansible | Software provisioning | For adding to final steps to Tableau Automation that Terraform is not capable to.
+
 ## Usage
 
 <!-- CONTRIBUTING -->
