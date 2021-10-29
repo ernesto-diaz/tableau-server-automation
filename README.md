@@ -25,7 +25,11 @@ bla bla
 ### Why automating Tableau Server deployments
 bla bla
 ### What's outthere alrady to do this? (as Oct 2021)
-bla bla
+There are some options out there for automating Tableau server deployments that may fit your needs better than this.
+
+ Solution | Link | Comments
+ Windows TSM SilentInstaller | [github of Windows TSM SilentInstaller](https://github.com/tableau/server-install-script-samples/tree/master/windows/tsm/SilentInstaller) | It's designed for running Tableau Server on Windows Server. Not suitable for Linux.
+ CloudFormation Template | [Tableau Server on AWS](https://aws.amazon.com/quickstart/architecture/tableau-server/) | It's a reallly good automation, but forces you to use a particular stack.
 
 ## Tech stack for this solution
 
